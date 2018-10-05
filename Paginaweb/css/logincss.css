@@ -1,0 +1,95 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-size: 16px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    margin: 0 0 100px;
+}
+
+@font-face {
+    font-family: poppins-bold;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: poppins-medium;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: poppins-regular;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+#sesion {
+    font-family: poppins-medium;
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 1em;
+    border-radius: 10px;
+}
+
+#inicio_sesion {
+    color: #223A4B;
+    text-align: center;
+    font-size: 1.6em;
+}
+
+#puntoventa {
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    font-family: poppins-bold;
+}
+
+.form-control {
+    margin: 0 auto;
+    padding: 1rem;
+    margin: .7rem 0 .7rem 0;
+    color: #223A4B;
+}
+
+.servicios{
+    position: relative;
+    text-align: center;
+}
+
+.item-img{
+    font-size: 3em;
+    color: #223a4b;
+    text-align: center;
+}
+
+#creditos {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    height: 100px;
+    color: #FFF;
+    background: #2e353d;
+    text-align: center;
+    margin-top: 1em;
+}
+
+#creditos #sistema {
+    font-size: 1em;
+    padding-top: 1em;
+}
+
+#creditos .fa {
+    color: #FFF;
+    font-size: 1.6em;
+    padding-right: .5rem;
+    margin: 0;
+}
